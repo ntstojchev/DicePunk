@@ -7,7 +7,8 @@ The game is heavily inspired by Reign and Dice Legacy!
 
 The game is introduces through a short tutorial within the game.
 
-DicePunk was done under 16h for GTMK 2022 Game Jam.
+DicePunk was done under 16h for GTMK 2022 Game Jam:
+- https://itch.io/jam/gmtk-jam-2022
 
 Assets used:
 - https://www.kenney.nl/assets/input-prompts-pixel-16

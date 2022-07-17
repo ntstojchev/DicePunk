@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f0b217e1d6b9fb4e9a984838759ed3d, type: 3}
+  m_Name: YearEventsDef
+  m_EditorClassIdentifier: 
+  Events:
+  - Content: Sire, the crops this year are bad. We should do something!
+    FoodAlter: -6
+    PopulationAlter: -6
+    ArmyAlter: -3
+    ConfidenceAlter: -3
+  - Content: Sire, the pope wants to do a rally!
+    FoodAlter: 0
+    PopulationAlter: 6
+    ArmyAlter: -3
+    ConfidenceAlter: -6
+  - Content: Sire, there are some enemies on the border!
+    FoodAlter: -6
+    PopulationAlter: -6
+    ArmyAlter: 6
+    ConfidenceAlter: 6
+  - Content: Sire, some of the folks are rioting!
+    FoodAlter: -3
+    PopulationAlter: -6
+    ArmyAlter: 3
+    ConfidenceAlter: -6
+  - Content: Sire, our neighbours wants to do some diplomacy!
+    FoodAlter: 0
+    PopulationAlter: 0
+    ArmyAlter: -8
+    ConfidenceAlter: 4
+  - Content: Sire, there's a large dragon flying over the country!
+    FoodAlter: -10
+    PopulationAlter: -6
+    ArmyAlter: 10
+    ConfidenceAlter: 6
+  - Content: Sire, there's a small dragon flying over the country!
+    FoodAlter: -6
+    PopulationAlter: -3
+    ArmyAlter: 5
+    ConfidenceAlter: 3
+  - Content: Sire, you have a daugther! Celebrations are in order!
+    FoodAlter: -10
+    PopulationAlter: 6
+    ArmyAlter: 6
+    ConfidenceAlter: 8
+  - Content: Sire, someone burned the food storage!
+    FoodAlter: -6
+    PopulationAlter: -6
+    ArmyAlter: 4
+    ConfidenceAlter: -4
+  - Content: Sire, your generals are rallying up! This is a coup!
+    FoodAlter: 0
+    PopulationAlter: -8
+    ArmyAlter: -8
+    ConfidenceAlter: -10
+  - Content: Sire, your rabbits in the animal garden are out of control!
+    FoodAlter: -6
+    PopulationAlter: -4
+    ArmyAlter: 4
+    ConfidenceAlter: -4
+  - Content: Sire, your lions from the animal garden are walking on the streets!
+    FoodAlter: -4
+    PopulationAlter: -8
+    ArmyAlter: 10
+    ConfidenceAlter: -8
+  - Content: Sire, the winter is coming!
+    FoodAlter: -8
+    PopulationAlter: -8
+    ArmyAlter: -8
+    ConfidenceAlter: 0
+  - Content: Sire, the golden bank is demanding payments!
+    FoodAlter: -2
+    PopulationAlter: 0
+    ArmyAlter: -6
+    ConfidenceAlter: -4
+  - Content: Sire, the farmers said that harvest is fruitful this year!
+    FoodAlter: 10
+    PopulationAlter: 6
+    ArmyAlter: 2
+    ConfidenceAlter: 5
+  - Content: Sire, there are a lot of babies this year!
+    FoodAlter: -4
+    PopulationAlter: 8
+    ArmyAlter: 0
+    ConfidenceAlter: 6
+  - Content: Sire, there's a cult that is trying to settle in our kingdom!
+    FoodAlter: 0
+    PopulationAlter: 0
+    ArmyAlter: -8
+    ConfidenceAlter: -4
+  - Content: Sire, the slayed dragon was guarding a treasure!
+    FoodAlter: -4
+    PopulationAlter: 0
+    ArmyAlter: 4
+    ConfidenceAlter: 2
+  - Content: Sire, it's full moon! Werewolfs are attacking the kingdom!
+    FoodAlter: 0
+    PopulationAlter: -8
+    ArmyAlter: 6
+    ConfidenceAlter: -4
+  - Content: Sire, the summer is coming!
+    FoodAlter: -6
+    PopulationAlter: 4
+    ArmyAlter: -2
+    ConfidenceAlter: 0
+  StartingFood: 20
+  StartingPopulation: 20
+  StartingArmy: 20
+  StartingConfidence: 20
+  ResourcesMax: 40

@@ -21,6 +21,7 @@ public class UIManager : MonoBehaviour
 	public RectTransform CurrentlyDraggedObject;
 	public RectTransform CurrentlyHoveredObject;
 
+	public Button PickAllDiceButton;
 	public Button RerollButton;
 	public Button EndYearButton;
 	public Text RerollText;
@@ -48,6 +49,7 @@ public class UIManager : MonoBehaviour
 		QuitGame.onClick.AddListener(OnQuitGameButtonClicked);
 		RestartGameButton.onClick.AddListener(OnRestartButtonClicked);
 		NextTutorialButton.onClick.AddListener(OnNextTutorialButtonClicked);
+		PickAllDiceButton.onClick.AddListener(OnPickAllDiceButtonClicked);
 
 		foreach (Die die in PlayDice) {
 			die.UI = this;
@@ -57,6 +59,15 @@ public class UIManager : MonoBehaviour
 		foreach (DieSlot slot in SlotDice) {
 			slot.UI = this;
 			slot.AssignedDie.SideValue = 0;
+		}
+	}
+
+	private void OnPickAllDiceButtonClicked()
+	{
+		foreach (Die die in PlayDice) {
+			if (die.SideValue == 0) {
+				die.SetDie();
+			}
 		}
 	}
 
